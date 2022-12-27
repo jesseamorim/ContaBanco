@@ -6,7 +6,8 @@ public class ContaTerminal {
 
         System.out.print("Digite o numero da conta: ");
         Integer numeroDaConta = input.nextInt();
-        input.nextLine();
+        
+        input.nextLine(); // Foi adcionado para reparar o bug da quebra de linha.
 
         System.out.print("Digite sua agencia: ");
         String agencia = input.nextLine();
